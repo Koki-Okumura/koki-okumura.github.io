@@ -1,0 +1,23 @@
+project:
+  type: website
+  render:
+    - index.qmd
+  resources:
+    - files/
+
+website:
+  title: "Koki Okumura"
+  site-url: "https://www.kokiokumura.com"
+  description: "Koki Okumura"
+  image: assets/img/portrait.jpg
+  image-alt: "Koki Okumura"
+  search: false
+  open-graph: true
+
+format:
+  html:
+    theme: cosmo
+    css: assets/css/styles.css
+    toc: false
+    anchor-sections: false
+    link-external-newwindow: true
