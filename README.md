@@ -51,7 +51,7 @@ find _site/files -type f | sort
 - The `main` branch contains the rendered GitHub Pages output.
 - To update the public site, edit the `source` branch, run `quarto render`,
   review `_site/`, then publish the contents of `_site/` to the `main` branch.
-- Do not create `CNAME` until the GitHub Pages default URL has been checked.
+- `CNAME` sets the custom domain to `www.kokiokumura.com`.
 - Do not switch DNS away from the current public site until the Quarto version
   has been reviewed on the GitHub Pages default URL.
 - Public PDF links on the site should point to local `files/...` paths rather
