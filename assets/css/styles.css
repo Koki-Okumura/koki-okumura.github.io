@@ -1,0 +1,130 @@
+/* Minimal custom styling for Koki Okumura's academic website. */
+
+main.content {
+  max-width: 860px;
+}
+
+main.content a:not(.cv-link):not(.paper-link) {
+  color: #750f6d;
+  text-decoration-color: rgba(117, 15, 109, 0.4);
+  text-underline-offset: 0.16em;
+}
+
+main.content a:not(.cv-link):not(.paper-link):hover {
+  color: #5f0c59;
+  text-decoration-color: #750f6d;
+}
+
+.home-intro {
+  align-items: center;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: minmax(0, 1fr) 190px;
+  margin-bottom: 2.25rem;
+}
+
+.home-photo {
+  justify-self: end;
+}
+
+.portrait {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  display: block;
+  object-fit: cover;
+  width: min(190px, 100%);
+}
+
+.cv-link {
+  border: 1px solid #cfd6df;
+  border-radius: 4px;
+  color: #3b5877;
+  display: inline-block;
+  font-size: 0.78rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-top: 0.35rem;
+  padding: 0.22rem 0.38rem;
+  text-decoration: none;
+}
+
+.cv-link:hover {
+  background: #f3f6f9;
+  text-decoration: underline;
+}
+
+.paper-list {
+  margin-top: 0.75rem;
+}
+
+.paper {
+  border-bottom: 1px solid #eeeeee;
+  padding: 0.95rem 0 1.05rem;
+}
+
+.paper:last-child {
+  border-bottom: 0;
+}
+
+.paper h3 {
+  font-size: 1.05rem;
+  margin: 0 0 0.25rem;
+}
+
+.paper-link {
+  border: 1px solid #cfd6df;
+  border-radius: 4px;
+  color: #3b5877;
+  display: inline-block;
+  font-size: 0.72rem;
+  font-weight: 600;
+  line-height: 1;
+  margin-left: 0.35rem;
+  padding: 0.16rem 0.32rem;
+  text-decoration: none;
+  vertical-align: 0.12rem;
+}
+
+.paper-link:hover {
+  background: #f3f6f9;
+  text-decoration: underline;
+}
+
+.paper-meta {
+  color: #555;
+  margin: 0.15rem 0;
+}
+
+.paper-abstract {
+  color: #444;
+  font-size: 0.95rem;
+  margin-top: 0.45rem;
+}
+
+.paper-abstract summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.paper-abstract summary p {
+  display: inline;
+  margin: 0;
+}
+
+.paper-abstract[open] summary {
+  margin-bottom: 0.35rem;
+}
+
+h2 {
+  margin-top: 2rem;
+}
+
+@media (max-width: 700px) {
+  .home-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .home-photo {
+    justify-self: start;
+  }
+}
