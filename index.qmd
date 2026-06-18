@@ -44,7 +44,7 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 ::: {.paper}
 ### Knowledge Creation and Diffusion with Limited Appropriation [PDF](files/papers/limited_appropriation.pdf){.paper-link}
 
-<p class="paper-meta">With <a href="https://economics.ucla.edu/person/hugo-hopenhayn/">Hugo Hopenhayn</a> and <a href="https://www.liyanshi.com/">Liyan Shi</a>.</p>
+<p class="paper-meta">With <a href="https://hopenhayn.weebly.com/">Hugo Hopenhayn</a> and <a href="https://www.liyanshi.com/">Liyan Shi</a>.</p>
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
@@ -55,7 +55,7 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 ::: {.paper}
 ### Dynamic Oligopoly and Innovation [PDF](files/papers/oligopoly.pdf){.paper-link}
 
-<p class="paper-meta">With <a href="https://economics.ucla.edu/person/hugo-hopenhayn/">Hugo Hopenhayn</a>.</p>
+<p class="paper-meta">With <a href="https://hopenhayn.weebly.com/">Hugo Hopenhayn</a>.</p>
 
 <details class="paper-abstract">
 <summary>Abstract</summary>
@@ -79,14 +79,14 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 ::: {.paper}
 ### The Aging Society, Savings Rates, and Regional Flow of Funds in Japan [Journal](https://www.sciencedirect.com/science/article/pii/S0889158321000447?dgcid=author){.paper-link}
 
-<p class="paper-meta">With <a href="https://www.u-tokyo.ac.jp/focus/en/people/people000774.html">Shin-ichi Fukuda</a>.</p>
+<p class="paper-meta">With <a href="https://researchmap.jp/sfukuda1217?lang=en">Shin-ichi Fukuda</a>.</p>
 <p class="paper-meta">Journal of the Japanese and International Economies, 2021.</p>
 :::
 
 ::: {.paper}
 ### Regional Convergence under Declining Population: The Case of Japan [Journal](https://www.sciencedirect.com/science/article/pii/S0922142520300025){.paper-link}
 
-<p class="paper-meta">With <a href="https://www.u-tokyo.ac.jp/focus/en/people/people000774.html">Shin-ichi Fukuda</a>.</p>
+<p class="paper-meta">With <a href="https://researchmap.jp/sfukuda1217?lang=en">Shin-ichi Fukuda</a>.</p>
 <p class="paper-meta">Japan and the World Economy, 2020.</p>
 :::
 :::
