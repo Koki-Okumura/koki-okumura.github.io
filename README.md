@@ -48,9 +48,11 @@ find _site/files -type f | sort
 ## Publishing Notes
 
 - The `source` branch contains the Quarto source files.
-- The `main` branch contains the rendered GitHub Pages output.
-- To update the public site, edit the `source` branch, run `quarto render`,
-  review `_site/`, then publish the contents of `_site/` to the `main` branch.
+- GitHub Actions renders the site and deploys it to GitHub Pages whenever the
+  `source` branch is pushed.
+- To update the public site, edit the `source` branch, optionally run
+  `quarto render` locally to preview, then commit and push `source`.
+- The `main` branch is no longer used for manual publishing.
 - `CNAME` sets the custom domain to `www.kokiokumura.com`.
 - Public PDF links on the site should point to local `files/...` paths rather
   than Google Drive URLs.
@@ -60,9 +62,9 @@ find _site/files -type f | sort
 
 The public custom domain is `www.kokiokumura.com`.
 
-GitHub Pages is configured to serve the rendered `main` branch from the repository
-root. The DNS `www` record should point to `koki-okumura.github.io`; do not include
-the repository name in the DNS target.
+GitHub Pages is configured to deploy from GitHub Actions. The DNS `www` record
+should point to `koki-okumura.github.io`; do not include the repository name in
+the DNS target.
 
 After DNS or custom-domain changes, check the Pages status:
 
