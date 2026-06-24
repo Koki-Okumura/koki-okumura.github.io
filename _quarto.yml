@@ -9,6 +9,7 @@ website:
   title: "Koki Okumura"
   site-url: "https://www.kokiokumura.com"
   description: "Koki Okumura"
+  favicon: assets/img/favicon.png
   image: assets/img/portrait.jpg
   image-alt: "Koki Okumura"
   search: false

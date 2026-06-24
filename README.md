@@ -52,8 +52,24 @@ find _site/files -type f | sort
 - To update the public site, edit the `source` branch, run `quarto render`,
   review `_site/`, then publish the contents of `_site/` to the `main` branch.
 - `CNAME` sets the custom domain to `www.kokiokumura.com`.
-- Do not switch DNS away from the current public site until the Quarto version
-  has been reviewed on the GitHub Pages default URL.
 - Public PDF links on the site should point to local `files/...` paths rather
   than Google Drive URLs.
 - Keep public file paths stable after launch, especially CV and paper PDF URLs.
+
+## Custom Domain
+
+The public custom domain is `www.kokiokumura.com`.
+
+GitHub Pages is configured to serve the rendered `main` branch from the repository
+root. The DNS `www` record should point to `koki-okumura.github.io`; do not include
+the repository name in the DNS target.
+
+After DNS or custom-domain changes, check the Pages status:
+
+```bash
+gh api repos/Koki-Okumura/koki-okumura.github.io/pages \
+  --jq '{status: .status, cname: .cname, https_enforced: .https_enforced, https_certificate: .https_certificate}'
+```
+
+When GitHub finishes issuing the HTTPS certificate, enable **Enforce HTTPS** in
+the repository's Pages settings.

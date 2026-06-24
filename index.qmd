@@ -77,14 +77,14 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 
 ::: {.paper-list}
 ::: {.paper}
-### The Aging Society, Savings Rates, and Regional Flow of Funds in Japan [Journal](https://www.sciencedirect.com/science/article/pii/S0889158321000447?dgcid=author){.paper-link}
+### The Aging Society, Savings Rates, and Regional Flow of Funds in Japan [Journal](https://doi.org/10.1016/j.jjie.2021.101165){.paper-link}
 
 <p class="paper-meta">With <a href="https://researchmap.jp/sfukuda1217?lang=en">Shin-ichi Fukuda</a>.</p>
 <p class="paper-meta">Journal of the Japanese and International Economies, 2021.</p>
 :::
 
 ::: {.paper}
-### Regional Convergence under Declining Population: The Case of Japan [Journal](https://www.sciencedirect.com/science/article/pii/S0922142520300025){.paper-link}
+### Regional Convergence under Declining Population: The Case of Japan [Journal](https://doi.org/10.1016/j.japwor.2020.101023){.paper-link}
 
 <p class="paper-meta">With <a href="https://researchmap.jp/sfukuda1217?lang=en">Shin-ichi Fukuda</a>.</p>
 <p class="paper-meta">Japan and the World Economy, 2020.</p>
