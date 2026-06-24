@@ -3,22 +3,60 @@ project:
   render:
     - index.qmd
   resources:
-    - files/
+    - files/Koki_CV.pdf
+    - files/papers/*.pdf
 
 website:
   title: "Koki Okumura"
   site-url: "https://www.kokiokumura.com"
-  description: "Koki Okumura"
+  description: &site_description "Koki Okumura (奥村公貴) is an Assistant Professor of Economics at the Chinese University of Hong Kong, working on macroeconomics, economic growth, and firm dynamics."
   favicon: assets/img/favicon.png
   image: assets/img/portrait.jpg
   image-alt: "Koki Okumura"
   search: false
-  open-graph: true
+  open-graph:
+    title: "Koki Okumura"
+    description: *site_description
+    image: assets/img/portrait.jpg
+    image-alt: "Koki Okumura"
 
 format:
   html:
     theme: cosmo
+    title-prefix: ""
+    description-meta: *site_description
+    canonical-url: true
     css: assets/css/styles.css
+    include-in-header:
+      text: |
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "Person",
+          "name": "Koki Okumura",
+          "alternateName": "奥村公貴",
+          "givenName": "Koki",
+          "familyName": "Okumura",
+          "jobTitle": "Assistant Professor of Economics",
+          "url": "https://www.kokiokumura.com/",
+          "image": "https://www.kokiokumura.com/assets/img/portrait.jpg",
+          "worksFor": {
+            "@type": "Organization",
+            "name": "The Chinese University of Hong Kong",
+            "url": "https://www.cuhk.edu.hk/"
+          },
+          "affiliation": {
+            "@type": "Organization",
+            "name": "Department of Economics, The Chinese University of Hong Kong",
+            "url": "https://www.econ.cuhk.edu.hk/"
+          },
+          "knowsAbout": [
+            "Macroeconomics",
+            "Economic growth",
+            "Firm dynamics"
+          ]
+        }
+        </script>
     toc: false
     anchor-sections: false
     link-external-newwindow: true

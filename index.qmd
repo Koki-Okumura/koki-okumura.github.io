@@ -1,10 +1,13 @@
 ---
 title: "Koki Okumura"
+pagetitle: "Koki Okumura"
 ---
+
+<p class="japanese-name" lang="ja">奥村公貴</p>
 
 ::: {.home-intro}
 ::: {.home-copy}
-In August 2026, I will join [the Department of Economics](https://www.econ.cuhk.edu.hk/) at [The Chinese University of Hong Kong](https://www.cuhk.edu.hk/) as an Assistant Professor.
+In August 2026, I will join the Department of Economics at the Chinese University of Hong Kong as an Assistant Professor.
 
 My research interests are in macroeconomics, economic growth, and firm dynamics.
 
