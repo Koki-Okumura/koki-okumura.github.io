@@ -7,7 +7,7 @@ pagetitle: "Koki Okumura"
 
 ::: {.home-intro}
 ::: {.home-copy}
-In August 2026, I will join the Department of Economics at the Chinese University of Hong Kong as an Assistant Professor.
+I am an Assistant Professor in the Department of Economics at the Chinese University of Hong Kong.
 
 My research interests are in macroeconomics, economic growth, and firm dynamics.
 
