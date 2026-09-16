@@ -5,6 +5,7 @@ project:
   resources:
     - files/Koki_CV.pdf
     - files/papers/*.pdf
+    - files/slides/*.pdf
 
 website:
   title: "Koki Okumura"

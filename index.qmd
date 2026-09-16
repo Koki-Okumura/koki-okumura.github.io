@@ -23,7 +23,7 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 
 ::: {.paper-list}
 ::: {.paper}
-### Inventor Mobility, Knowledge Diffusion, and Growth [PDF](files/papers/inventor.pdf){.paper-link}
+### Inventor Mobility, Knowledge Diffusion, and Growth [PDF](files/papers/inventor.pdf){.paper-link} [Slides](files/slides/inventor_slides.pdf){.paper-link}
 
 <p class="paper-meta">With <a href="https://yasutakakoike-mori.com/">Yasutaka Koike</a> and <a href="https://sites.google.com/view/toshi-maruyama">Toshitaka Maruyama</a>.</p>
 
@@ -34,7 +34,7 @@ My research interests are in macroeconomics, economic growth, and firm dynamics.
 :::
 
 ::: {.paper}
-### Production Networks and R&D Allocation [PDF](files/papers/supply_chain.pdf){.paper-link}
+### Production Networks and R&D Allocation [PDF](files/papers/supply_chain.pdf){.paper-link} [Slides](files/slides/supply_chain_slides.pdf){.paper-link}
 
 <p class="paper-meta">With <a href="https://yasutakakoike-mori.com/">Yasutaka Koike</a>.</p>
 
